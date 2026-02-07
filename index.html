@@ -1,8 +1,9 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Productos Naturales | La Magia de la Quiropractica</title>
+    <title>La Magia de la Quiropractica | Salud Integral</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +12,7 @@
             margin: 0;
             padding: 20px;
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #1f6f54;
             text-align: center;
         }
@@ -19,16 +20,12 @@
             max-width: 900px;
             margin: auto;
         }
-        .product {
+        .section {
             background: #ffffff;
             border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 22px;
+            margin-bottom: 22px;
             box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-        }
-        .product h3 {
-            color: #1f6f54;
-            margin-top: 0;
         }
         ul {
             padding-left: 20px;
@@ -38,11 +35,14 @@
         }
         .cta {
             text-align: center;
-            margin-top: 35px;
+            margin-top: 30px;
             padding: 25px;
             background-color: #1f6f54;
             color: #fff;
             border-radius: 12px;
+        }
+        .cta h3 {
+            color: #fff;
         }
         .whatsapp-btn {
             display: inline-block;
@@ -54,21 +54,10 @@
             text-decoration: none;
             font-weight: bold;
         }
-        .payments {
-            background: #ffffff;
-            border-radius: 12px;
-            padding: 20px;
-            margin-top: 25px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-        }
-        .payments h3 {
-            color: #1f6f54;
-            text-align: center;
-        }
         .note {
             font-size: 13px;
             color: #555;
-            margin-top: 30px;
+            margin-top: 25px;
             text-align: center;
         }
     </style>
@@ -77,50 +66,60 @@
 
 <div class="container">
 
-    <h1>🌿 Productos Naturales</h1>
-    <h2>La Magia de la Quiropractica</h2>
+    <!-- ENCABEZADO -->
+    <div class="section">
+        <h1>🌿 La Magia de la Quiropractica</h1>
+        <h2>Salud Integral • Bienestar • Equilibrio</h2>
+        <p style="text-align:center;">
+            Acompañamos procesos de salud de forma integral, combinando
+            orientación quiropractica y complementos naturales,
+            siempre según la condición de cada paciente.
+        </p>
+    </div>
 
-    <div class="product">
-        <h3>Zeolita Natural</h3>
+    <!-- SERVICIOS -->
+    <div class="section">
+        <h3>👐 Enfoque de Atención</h3>
+        <ul>
+            <li>Orientación quiropractica</li>
+            <li>Enfoque en sistema nervioso y bienestar general</li>
+            <li>Acompañamiento personalizado</li>
+            <li>Salud preventiva y natural</li>
+        </ul>
+    </div>
+
+    <!-- PRODUCTOS -->
+    <div class="section">
+        <h3>🌿 Productos Naturales</h3>
+
+        <h4>Zeolita Natural</h4>
         <ul>
             <li>Apoyo en la eliminación de toxinas y metales pesados</li>
             <li>Contribuye a la limpieza intestinal</li>
             <li>Apoya el sistema inmunológico</li>
-            <li>Favorece el equilibrio general del organismo</li>
         </ul>
-    </div>
 
-    <div class="product">
-        <h3>Tierra de Diatomeas</h3>
+        <h4>Tierra de Diatomeas</h4>
         <ul>
             <li>Apoyo digestivo e intestinal</li>
             <li>Fuente natural de minerales</li>
-            <li>Contribuye al bienestar intestinal</li>
-            <li>Favorece la salud general</li>
+            <li>Contribuye al bienestar general</li>
         </ul>
-    </div>
 
-    <div class="product">
-        <h3>Bisglicinato de Magnesio</h3>
+        <h4>Bisglicinato de Magnesio</h4>
         <ul>
-            <li>Alta absorción y biodisponibilidad</li>
+            <li>Alta absorción</li>
             <li>Apoyo al sistema nervioso</li>
-            <li>Contribuye a la relajación muscular</li>
-            <li>Favorece el descanso y el equilibrio emocional</li>
+            <li>Favorece relajación y descanso</li>
         </ul>
-    </div>
 
-    <div class="product">
-        <h3>Ormus (Oro Monoatómico)</h3>
+        <h4>Ormus (Oro Monoatómico)</h4>
         <ul>
-            <li>Apoyo energético y bienestar general</li>
-            <li>Contribuye al equilibrio físico y mental</li>
-            <li>Utilizado como complemento natural</li>
+            <li>Apoyo energético</li>
+            <li>Equilibrio físico y mental</li>
         </ul>
-    </div>
 
-    <div class="product">
-        <h3>Azul de Metileno</h3>
+        <h4>Azul de Metileno</h4>
         <ul>
             <li>Apoyo antioxidante</li>
             <li>Contribuye a la energía celular</li>
@@ -128,7 +127,8 @@
         </ul>
     </div>
 
-    <div class="payments">
+    <!-- FORMAS DE PAGO -->
+    <div class="section">
         <h3>💳 Formas de Pago</h3>
         <ul>
             <li>Nequi</li>
@@ -137,8 +137,10 @@
             <li>Tarjetas de crédito</li>
             <li>Tarjetas débito</li>
         </ul>
+        <p style="text-align:center;"><strong>Aceptamos todos los métodos de pago</strong></p>
     </div>
 
+    <!-- CTA -->
     <div class="cta">
         <h3>📲 Información y asesoría personalizada</h3>
         <p>Orientación según la condición de cada paciente</p>
@@ -148,8 +150,9 @@
         <p><strong>La Magia de la Quiropractica</strong></p>
     </div>
 
+    <!-- NOTA LEGAL -->
     <div class="note">
-        *Estos productos son complementos naturales y no sustituyen diagnóstico ni tratamiento médico.
+        *Los productos mencionados son complementos naturales y no sustituyen diagnóstico ni tratamiento médico.
     </div>
 
 </div>
