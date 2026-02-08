@@ -1,4 +1,4 @@
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -9,70 +9,96 @@
 <style>
 body{
     font-family: Arial, sans-serif;
-    background:#eaf3fb; /* azul pastel suave */
+    background:#eaf3fb;
     margin:0;
     color:#1f2d3d;
+    font-size:18px; /* letras más grandes */
 }
 header{
     background:#cfe9f7;
     text-align:center;
-    padding:30px 20px;
+    padding:40px 20px;
 }
 header h1{
     margin:0;
     color:#4a90c2;
+    font-size:34px;
 }
 header p{
-    margin-top:8px;
-    font-size:16px;
+    margin-top:12px;
+    font-size:20px;
 }
 section{
     background:#ffffff;
-    margin:16px;
-    padding:22px;
-    border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    margin:18px;
+    padding:26px;
+    border-radius:14px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
 h2{
     color:#6baed6;
     margin-top:0;
+    font-size:26px;
+}
+p{
+    font-size:19px;
 }
 ul{
-    padding-left:18px;
-    margin:10px 0 0 0;
+    padding-left:20px;
+    margin:12px 0 0 0;
 }
 li{
-    margin-bottom:6px;
+    margin-bottom:8px;
+    font-size:19px;
 }
+
+/* CONTENEDOR DE FOTOS */
+.fotos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:12px;
+    margin-top:15px;
+}
+.fotos img{
+    width:100%;
+    border-radius:12px;
+}
+
+/* CTA */
 .cta{
     text-align:center;
     background:#4a90c2;
     color:#fff;
-    padding:25px;
-    margin:16px;
-    border-radius:12px;
+    padding:35px 20px;
+    margin:18px;
+    border-radius:14px;
+}
+.cta h2{
+    color:#ffffff;
 }
 .cta a{
     display:inline-block;
     background:#ffffff;
     color:#4a90c2;
-    padding:12px 22px;
+    padding:14px 26px;
     text-decoration:none;
-    border-radius:8px;
+    border-radius:10px;
     font-weight:bold;
-    margin-top:10px;
+    font-size:20px;
+    margin-top:12px;
 }
+
 footer{
     text-align:center;
-    font-size:13px;
+    font-size:14px;
     color:#555;
-    padding:15px;
+    padding:18px;
 }
 .note{
-    font-size:12px;
+    font-size:14px;
     color:#666;
     text-align:center;
-    margin:10px 20px;
+    margin:12px 22px;
 }
 </style>
 </head>
@@ -95,27 +121,37 @@ footer{
 <section>
     <h2>💻 Consulta Virtual</h2>
     <p>
-    Orientación profesional a distancia para valoración, seguimiento y formulación
-    de planes personalizados.
+    Orientación profesional a distancia para valoración y seguimiento personalizado.
     </p>
 </section>
 
 <section>
     <h2>🏠 Atención Domiciliaria</h2>
     <p>
-    Servicio en <strong>Chía, Cajicá, Zipaquirá, Sopó, Tocancipá y Briceño</strong>.
+    Chía • Cajicá • Zipaquirá • Sopó • Tocancipá • Briceño
     </p>
 </section>
 
 <section>
     <h2>🌿 Terapias y Productos Naturales</h2>
     <ul>
-        <li>✔ Zeolita</li>
-        <li>✔ Tierra de Diatomeas</li>
-        <li>✔ Ormus Monoatómico</li>
-        <li>✔ Azul de Metileno</li>
-        <li>✔ Apoyo natural y complementario</li>
+        <li>Zeolita</li>
+        <li>Tierra de Diatomeas</li>
+        <li>Ormus Monoatómico</li>
+        <li>Azul de Metileno</li>
     </ul>
+</section>
+
+<section>
+    <h2>📸 Fotos</h2>
+    <p>Aquí irán tus fotos reales (mañana las ponemos):</p>
+
+    <div class="fotos">
+        <img src="foto1.jpg" alt="Quiropráctica">
+        <img src="foto2.jpg" alt="Consulta quiropráctica">
+        <img src="foto3.jpg" alt="Atención domiciliaria">
+        <img src="foto4.jpg" alt="Terapias naturales">
+    </div>
 </section>
 
 <section>
@@ -132,7 +168,7 @@ footer{
 </section>
 
 <p class="note">
-*Los servicios y productos son complementarios y no sustituyen diagnóstico ni tratamiento médico.
+*Servicios y productos complementarios. No sustituyen diagnóstico ni tratamiento médico.
 </p>
 
 <footer>
